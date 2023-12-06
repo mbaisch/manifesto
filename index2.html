@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curvy Text Path</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+
+        .curvy-path {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .curvy-path svg {
+            width: 400px;
+            height: 200px;
+        }
+
+        .text-path {
+            fill: none;
+            stroke: #3498db;
+            stroke-width: 2;
+        }
+
+        .text {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-anchor: middle;
+            fill: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="curvy-path">
+        <svg viewBox="0 0 400 200">
+            <path class="text-path" d="M10,100 Q200,10 390,100" />
+            <text class="text">
+                <textPath href="#textPathCurve">Curvy text</textPath>
+                <h1>curvey text </h1>
+            </text>
+        </svg>
+    </div>
+
+</body>
+</html>

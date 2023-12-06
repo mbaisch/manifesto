@@ -1,0 +1,65 @@
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-image: url("../image/Bauhaus Poster.png");
+            background-size: 80vh;
+            background-position: center;
+          
+            color: #2741FF;
+            margin: 50px;
+            padding: 80px;
+            height: 120vh;
+
+            align-items: left;
+            text-align: left;
+            display:inline-block;
+        }
+
+        header {
+            padding: 70px;
+            width: 80%;
+            display:inline-block;
+        }
+
+        .colored-text {
+            color: #2741FF; 
+            background-color: #ffffff;
+            padding:1em;
+            width:25%;
+            float:left;
+            display:inline-block;
+        }
+
+.blue {
+    background-color:blue;
+    color: white;
+                padding:1em;
+            width:25%;
+            float:left;
+            display:inline-block;
+}
+
+.stickyleft {
+    position:fixed;
+    left: 0;
+    top:0;
+    
+}
+
+.stickyright {
+    position:fixed;
+    right: 0;
+    bottom:0;
+}
+
+.stickyright img {
+    display:block;
+}
+
+        .clickable-image {
+            cursor: pointer;
+        }
+
+        .resized-image {
+            max-width: 70%; 
+            height: 40%; 
+        }

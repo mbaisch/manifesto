@@ -1,0 +1,145 @@
+ body {
+            font-family: 'Helvetica', sans-serif;
+            background-image: url("Wave%20background.jpg");
+            background-size: 200vh;
+            background-position: center;
+            background-color: #5B96D0;
+          
+            color: #5B96D0;
+            margin: 50px;
+            padding: 80px;
+            height: 120vh;
+
+            align-items: left;
+            text-align: left;
+            display:inline-block;
+        }
+
+        header {
+            padding: 70px;
+            width: 80%;
+            display:inline-block;
+        }
+  .colored-text {
+            color: white; 
+            background-color: #5B96D0;
+            padding:10px;
+            width:90%;
+            float:left;
+      display:fixed;}
+
+        .colored-text1 {
+            color: white; 
+            background-color: #5B96D0;
+            padding:10px;
+            width:40%;
+            float:left;
+            position: fixed;
+           bottom:60%;
+        }
+     .colored-text2 {
+            color: white; 
+            background-color: #5B96D0;
+            padding:10px;
+            width:50%;
+            float:left;
+         position: fixed;
+         bottom:28%;
+        }
+
+    .colored-text3 {
+            color: white; 
+            background-color: #5B96D0;
+            padding:10px;
+            width:60%;
+            float:left;
+         position: fixed;
+         bottom:0%;
+        }
+
+.blue {
+    background-color: #5B96D0;
+    color: white;
+                padding:1em;
+            width:25%;
+            float:left;
+            display:inline-block;
+}
+
+.stickyleft {
+    position:fixed;
+    left: 0;
+    top:0;
+    
+}
+
+.stickyright {
+    position:fixed;
+    right: 80;
+    bottom:100;
+}
+
+.stickyright img {
+    display:block;
+}
+
+        .clickable-image {
+            cursor:grabbing;
+        }
+
+
+#penguin1 {
+  bottom: 15%;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 15s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% { 
+    left: calc(100% - 100px); 
+   }
+  100% {
+    left: 0;     
+  }
+}
+
+#penguin2 {
+  bottom:55%;
+    right:5;
+    position:fixed;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 30s;
+}
+@-webkit-keyframes run {
+  0% {
+  right: 0;
+  }
+  50% {
+    right: 100%;
+  }
+}
+
+#penguin3   
+{
+  bottom:-20%;
+    right:10;
+    position:fixed;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 25s;
+}
+@-webkit-keyframes run {
+  0% {
+  right: 0;
+  }
+  50% {
+    right: 100%;
+  }
+}
